@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define custom font 'Hind Siliguri'as I want */
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('../Font/Hind_Siliguri_Medium-Regular.ttf');
+}
+
+/* Define custom font 'Kalpurush' */
+@font-face {
+    font-family: 'Kalpurush';
+    src: url('../Font/Kalpurush.ttf');
+}
+
+/* Heading for the all blogs =============== */
+.blog-heading {
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 150px; 
+    background-color: #4F4444; 
+    color: #FFFFFF; 
+    font-size: 30px; 
+    font-family: 'Hind Siliguri', sans-serif; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Main heading for the all blogs =============== */
+.blog-heading h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Blog Post Container Align =============== */
+.blog-container-align {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap; /* Allow content to wrap if necessary */
+}
+
+/* Blog Post Container =============== */
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; 
+    max-width: 500px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff; 
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Blog Post Heading ============== */
+.blog-container h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #4F4444;
+}
+
+/* Blog Post Image ============== */
+.blog-container img {
+    max-height: 375px; /* Set maximum height */
+    display: block;
+    margin: 0 0 15px 0;
+}
+
+/* Blog Post Paragraph ============== */
+.blog-container p {
+    margin: 0 0 15px 0;
+    padding: 0 40px; 
+    font-family: 'Kalpurush', sans-serif;
+    font-size: 15px; 
+    color: #6D6D6D;
+}
+
+/* Anchor (Link) ============== */
+a {
+    display: block;
+    margin-top: 15px; 
+    padding-left: 40px;
+    font-size: 15px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #4F4444;
+    text-decoration: none; /* Remove underline before hover */
+}
+
+/* Hover effect for anchor (link) */
+a:hover {
+    text-decoration: underline;
+}
